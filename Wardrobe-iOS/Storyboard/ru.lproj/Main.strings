@@ -1,0 +1,48 @@
+
+/* Class = "UITextField"; placeholder = "Repet Password"; ObjectID = "6qh-cB-9Bq"; */
+"6qh-cB-9Bq.placeholder" = "Repet Password";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "99q-gK-UVd"; */
+"99q-gK-UVd.normalTitle" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "EPN-40-iOo"; */
+"EPN-40-iOo.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Jbz-Ph-p4U"; */
+"Jbz-Ph-p4U.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "MHW-Fs-vaz"; */
+"MHW-Fs-vaz.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Line spacing"; ObjectID = "V8K-qZ-96w"; */
+"V8K-qZ-96w.text" = "Line spacing";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "WFe-U9-y5l"; */
+"WFe-U9-y5l.normalTitle" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "YKH-hm-Yft"; */
+"YKH-hm-Yft.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Yqi-jK-vAs"; */
+"Yqi-jK-vAs.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Line width"; ObjectID = "Zr0-zU-6Y7"; */
+"Zr0-zU-6Y7.text" = "Line width";
+
+/* Class = "UILabel"; text = "Line color"; ObjectID = "pDk-9e-l3X"; */
+"pDk-9e-l3X.text" = "Line color";
+
+/* Class = "UISegmentedControl"; qwH-An-NN9.segmentTitles[0] = "None"; ObjectID = "qwH-An-NN9"; */
+"qwH-An-NN9.segmentTitles[0]" = "None";
+
+/* Class = "UISegmentedControl"; qwH-An-NN9.segmentTitles[1] = "Vertical"; ObjectID = "qwH-An-NN9"; */
+"qwH-An-NN9.segmentTitles[1]" = "Vertical";
+
+/* Class = "UISegmentedControl"; qwH-An-NN9.segmentTitles[2] = "Horizontal"; ObjectID = "qwH-An-NN9"; */
+"qwH-An-NN9.segmentTitles[2]" = "Horizontal";
+
+/* Class = "UISegmentedControl"; qwH-An-NN9.segmentTitles[3] = "Cell"; ObjectID = "qwH-An-NN9"; */
+"qwH-An-NN9.segmentTitles[3]" = "Cell";
+
+/* Class = "UIButton"; normalTitle = "See Image"; ObjectID = "wIb-2a-UiC"; */
+"wIb-2a-UiC.normalTitle" = "See Image";

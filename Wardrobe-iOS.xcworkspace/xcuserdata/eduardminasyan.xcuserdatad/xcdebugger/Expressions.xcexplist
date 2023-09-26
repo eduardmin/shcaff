@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static UIApplication.setTabBarRoot():UIApplicationExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.bool(forKey: UserDefaultsKey.goal)">
+            </PersistentString>
+            <PersistentString
+               value = "        UserDefaults.standard.object(forKey: UserDefaultsKey.goal)&#10;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SynchronizationManager.handleConstantsResponse(_:):SynchronizationManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static LoadingIndicator.loadingIndicators(on:):LoadingIndicator.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemEditParamTableViewCell.configure(_:_:):ItemEditParamTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.muliplyTouch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarTabBar.setType(_:):CalendarTabBar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CLLocation.fetchCity(completion:):LocationManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "$0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DatePickerView.doneClick(_:):DatePickerView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "datePickerView.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.handleTextSuggestionUpdate():SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.suggestedTexts.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LookItemTableViewCell.scrollViewDidEndDecelerating(_:):LookItemTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.indexPath(for: cell)">
+            </PersistentString>
+            <PersistentString
+               value = "cell.bounds.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateLookViewController.isEmpty.getter:CreateLookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.object(forKey: UserDefaultsKey.selectedCategory)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClosetViewController.viewDidLoad():ClosetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseAlertViewController.setupConstraints():BaseAlertViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "topInset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.forgotClick(_:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.configureParameterModel():ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "saveItemModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemSelectView.setLookHeight(_:_:):ItemSelectView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(view.frame.width - 2 * leftRightMargin) * look.multipleHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookViewController.viewDidLoad():LookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lookDetailViewModel.selectedLookModel.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AccountViewModel.handleStats(response:):AccountViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.itemStatModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountEditViewModel.init():AccountEditViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "profileModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsViewController.configureTableView():ItemParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountEditViewModel.setInput(type:input:):AccountEditViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tempViewModel.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabView.awakeFromNib():CustomTabView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " UIScreen.main.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookDetailViewModel.handleCreateResponse(_:):LookDetailViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SynchronizationManager.handleWardrobe(_:):SynchronizationManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.updateTs">
+            </PersistentString>
+            <PersistentString
+               value = "model.updateTs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SCTabBar.addSelectedView():SCTabBar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItem.frame.midX">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookCollectionViewLayout.prepare():LookCollectionViewLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "y">
+            </PersistentString>
+            <PersistentString
+               value = "panding">
+            </PersistentString>
+            <PersistentString
+               value = "collectionView?.bounds.width">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "collectionView?.bounds.width ?? 0 - 72 - 120 - 24 - 23 - 16">
+            </PersistentString>
+            <PersistentString
+               value = "a.frame.maxY">
+            </PersistentString>
+            <PersistentString
+               value = "collectionAttributes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookCollectionCell.configure(look:):LookCollectionCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "grLayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsMoreViewController.configureUI():ItemParamsMoreViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemParameterModel.muliplyTouch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ValidateWebService.validate(email:confirmationToken:completion:):ValidateWebService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getDeviceToken()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemViewController.selectedItem():ItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SignUpWebService.signup(_:completion:):SignUpWebService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SearchViewModel.searchWithParameters():SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "query">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DotView.loadViewFromNib():DotView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.loadNibNamed(&quot;DotView&quot;, owner: nil, options: nil)">
+            </PersistentString>
+            <PersistentString
+               value = "nib.instantiate(withOwner: self, options: nil)">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle.main.loadNibNamed(&quot;DotView&quot;, owner: nil, options: nil)?[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.configureSaveModel():ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemSelectView.appearOnView(_:_:_:_:_:):ItemSelectView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedView.frame.minY + topMargin">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "pickerView.frame.minY">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PandingSendSyncManager.sendPandingItems():PandingSendSyncManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.panding">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static LoadingIndicator.hide(from:animated:):LoadingIndicator.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "LoadingIndicator.loadingIndicators(on: view)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendaryWeakDayCell.select():CalendaryWeakDayCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedView.bounds.width">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView.bounds.width / 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GalleryCropperViewController.setImageToCrop(image:):GalleryCropperViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageView.frame.size.width">
+            </PersistentString>
+            <PersistentString
+               value = "imageView.frame.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "scrollView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CoreDataJsonParserManager.deleteItem(_:):CoreDataJsonParserManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.tempId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsViewController.itemEditPictureInfoTableViewCell(for:):ItemParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemParameterModel.imageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.handleSearchResult(searchAttributedString:):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.lookModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewModel.getSelectedParameterQuery():SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItemParameterModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static UIViewController.initFromNib&lt;A&gt;():UIViewControllerExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.init(nibName: String(describing: self), bundle: nil)[0]">
+            </PersistentString>
+            <PersistentString
+               value = "self.init(nibName: String(describing: self), bundle: nil)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CollectionView.reloadData():CollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visibleCells.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumModel.init(_:):AlbumModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isDefault">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumSetCollectionViewCell.collectionView(_:cellForItemAt:):AlbumSetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+            <PersistentString
+               value = "itemModel?.imageData ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CoreDataJsonParserManager.updateCalendarEvent(model:pending:save:):CoreDataJsonParserManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookCollectionCell.stopAnimating():LookCollectionCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainView.layer.sublayers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClothesTableViewCell.collectionView(_:cellForItemAt:):ClothesTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.imageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountViewModel.getGenderAndDate():AccountViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "profileModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Observable.value.didset:Obsereble.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "listener">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewModel.setCredentials(_:):LoginViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user!.password">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.configureViewParameterModel():ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemViewParameterModels">
+            </PersistentString>
+            <PersistentString
+               value = "itemModel?.colorList">
+            </PersistentString>
+            <PersistentString
+               value = "&#10;            var value: String?&#10;            switch type {&#10;            case .type:&#10;                value = getConstantValue(type, itemModel?.itemType)&#10;            case .color:&#10;                value = getConstantValue(type, itemModel?.colorList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ItemManager.checkAndDeleteSet(id:):ItemManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "set.itemIdList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetViewController.viewDidLoad():SetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "presentingViewController">
+            </PersistentString>
+            <PersistentString
+               value = "presentingViewController?.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumTableViewCell.longPressHandle(_:):AlbumTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contentSize?.height">
+            </PersistentString>
+            <PersistentString
+               value = "topMargin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventViewModel.getWeather():CalendarEventViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "LocationManager.manager.locationModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumSetCollectionViewCell.itemHeight.getter:AlbumSetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds">
+            </PersistentString>
+            <PersistentString
+               value = "bounds.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SetItemTableViewCell.panGestureHandler(_:):SetItemTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.itemViewTrailingConstraint.constant">
+            </PersistentString>
+            <PersistentString
+               value = "self.itemViewTrailingConstraint.constant - translation.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventLookTableViewCell.configure(_:_:):EventLookTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageWidthConstraint.constant ">
+            </PersistentString>
+            <PersistentString
+               value = "imageHeightConstraint.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginAlertViewController.createAccountClick(_:):LoginAlertViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NavigationView.backClick(_:):NavigationView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.selectParameter(_:_:):ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "saveItemModel?.colorList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemModel.compareItems(itemModel:):ItemModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemModel.clothingType">
+            </PersistentString>
+            <PersistentString
+               value = "size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CalendarEventViewModel.groupEvent():CalendarEventViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CreateLookViewController.collectionView(_:cellForItemAt:):CreateLookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.lookModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventManager.createCalendarEvents(calendarEventModels:):CalendarEventManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ProfileSetViewController.sendSetProfile():ProfileSetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gender">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookCollectionView.collectionView(_:numberOfItemsInSection:):LookCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "emptyLook">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetCollectionViewCell.setUpUI():SetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dotView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AlbumsViewController.tableView.getter:AlbumsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationHeight">
+            </PersistentString>
+            <PersistentString
+               value = "view.safeAreaInsets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.collectionView(_:cellForItemAt:):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.lookModels.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumItemSetCollectionViewCell.itemHeight.getter:AlbumItemSetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.calendar(_:cellForItemAt:cellState:indexPath:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellState.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumItemSetCollectionViewCell.collectionView(_:cellForItemAt:):AlbumItemSetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileSetViewModel.setUserProfile(_:gender:):ProfileSetViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "profileModel.birthDayDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarLookCollectionViewCell.configureUI():CalendarLookCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lookImageView.bounds.width">
+            </PersistentString>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+            <PersistentString
+               value = "bounds.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarTabBar.calendar(_:cellForItemAt:cellState:indexPath:):CalendarTabBar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.isSelected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static LoadingIndicator.show(on:animated:type:):LoadingIndicator.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TempViewModel.updateProfile():TempViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "celsius">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookItemTableViewCell.scrollViewDidEndDecelerating(_:):LookItemTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClothesTableViewCell.getSelectedCellFrame(indexPath:):ClothesTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.contentOffset.x">
+            </PersistentString>
+            <PersistentString
+               value = "collectionView.contentSize.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetViewController.start(showLoading:):SetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.reload():CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.countOfEvents">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemEditParamTableViewCell.collectionView(_:layout:sizeForItemAt:):ItemEditParamTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView">
+            </PersistentString>
+            <PersistentString
+               value = "UICollectionViewFlowLayout.automaticSize.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseNavigationViewController.setNavigationView(type:title:):BaseNavigationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationView.bottomAnchor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarController.handleTabBarClick(index:):TabBarController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarSetCollectionViewCell.collectionView(_:layout:sizeForItemAt:):CalendarSetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in DeviceInfoWebService.updateDeviceInfo(model:_:):DeviceInfoWebService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response as? [String : Any]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AvatarImageView.updateImage(_:):AvatarImageView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "placeholderImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.signInHandle(error:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIApplication.shared.windows.first?.rootViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SurveysViewModel.getSurveys():SurveysViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabView.calculateItemSize():CustomTabView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "homeWidth.constant">
+            </PersistentString>
+            <PersistentString
+               value = "selectedIndex == .home ? leftRigthMargin / 2 : leftRigthMargin">
+            </PersistentString>
+            <PersistentString
+               value = "selectedIndex == .home ? selectedItemWidth : itemWidth">
+            </PersistentString>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookViewModel.getLooks(offset:limit:):LookViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "type">
+            </PersistentString>
+            <PersistentString
+               value = "whatToWearExploreCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.getConstantValue(_:_:):ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemModel?.colorList?.first">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookViewController.saveLook():LookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NavigationView.setAvatarImage(_:):NavigationView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "avatarHeight.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TakePhotoViewController.setupDevice():TakePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "frontCamera">
+            </PersistentString>
+            <PersistentString
+               value = "backCamera">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewModel.handleResponse(_:searchText:deletedTexts:loadingMore:):SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lookModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StyleViewController.collectionView(_:layout:sizeForItemAt:):StyleViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(view.bounds.width - 2 * margin - 10) / 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomerSupportViewController.textView(_:shouldChangeTextIn:replacementText:):CustomerSupportViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textView.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static DateUtil.stringFromDateForLists(_:):DateExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DateFormatter.short.string(from: dt)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventWebService.saveCalendarEvent(_:_:):CalendarEventWebService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendarEventModel.tempId">
+            </PersistentString>
+            <PersistentString
+               value = "calendarEventModel.date ?? 0">
+            </PersistentString>
+            <PersistentString
+               value = "parameters[&quot;date&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "parameters">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetCollectionViewCell.collectionView(_:layout:sizeForItemAt:):SetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabBarItem.selectedViewWidth.getter:CustomTabBarItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleLabel.frame.maxX">
+            </PersistentString>
+            <PersistentString
+               value = "imageView.frame.minX">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TakePhotoViewController.openItemParamsView(_:):TakePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeatherViewModel.getWeather():WeatherViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.latitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarTabViewController.addTabBar():CalendarTabViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileSetViewController.tableView(_:didSelectRowAt:):ProfileSetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gender">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetViewModel.saveSet(_:):SetViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "setModel.canSendSet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountEditViewController.updateAvatarImage():AccountEditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "avatarHeightConstraint.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventCreateViewModel.getName():CalendarEventCreateViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendarEventModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumsViewController.tableView(_:cellForRowAt:):AlbumsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "getRegionCode():Helper.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "locale.regionCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UITableView.dequeueReusableCell&lt;A&gt;(_:indexPath:):UITableViewExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dequeueReusableCell(withIdentifier: identifier, for: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewController.setSelectTab(index:):BasicViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemRect?.minX">
+            </PersistentString>
+            <PersistentString
+               value = "tabCollectionView.contentOffset.x">
+            </PersistentString>
+            <PersistentString
+               value = "tabCollectionView.contentSize.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsViewController.tableView(_:numberOfRowsInSection:):ItemParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.paramterModels.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.addBrandModel():ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "paramterModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewModel.saveDefaultItems():BasicViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItemIds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventViewModel.countOfEvents(_:):CalendarEventViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateGroupEvents">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VerificationView.configureMessageLabel():VerificationView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "message">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DotView.configure(numberOfDots:):DotView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dotStackView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabBarItem.select(item:):CustomTabBarItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.selectedImage">
+            </PersistentString>
+            <PersistentString
+               value = "UIImage(named: item.selectedImage)">
+            </PersistentString>
+            <PersistentString
+               value = "titleLabel">
+            </PersistentString>
+            <PersistentString
+               value = "imageViewleading">
+            </PersistentString>
+            <PersistentString
+               value = "button">
+            </PersistentString>
+            <PersistentString
+               value = "titleLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "imageView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemColorTypeCollectionViewCell.configure(color:isSelected:):ItemColorTypeCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateLookCell.awakeFromNib():CreateLookCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemEditViewController.tableView(_:cellForRowAt:):ItemEditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UINib.init(nibName: &quot;ItemEditParamTableViewCell&quot;, bundle: nil)">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.dequeueReusableCell(withIdentifier: &quot;ItemEditParamTableViewCell&quot;, for: indexPath)">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.dequeueReusableCell(withIdentifier: &quot;InfoTableViewCell&quot;, for: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabBarItem.deselect(item:):CustomTabBarItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "frame.width">
+            </PersistentString>
+            <PersistentString
+               value = "imageViewleading.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FeadbackRecommendTableViewCell.configureUI():FeadbackRecommendTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "frame.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountViewModel.mostWornItems.getter:AccountViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemStatModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SynchronizationManager.startSync():SynchronizationManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.syncDict[type]">
+            </PersistentString>
+            <PersistentString
+               value = "syncDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookViewModel.handleResponse(_:loadingMore:):LookViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SearchFilterTableViewCell.collectionView(_:cellForItemAt:):SearchFilterTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileTextFieldTableViewCell.textField(_:shouldChangeCharactersIn:replacementString:):ProfileTextFieldTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewController.continueAction(_:):BasicViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pageViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.searchBarTextDidBeginEditing(_:):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.searchRecentTexts.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIView.circleView():UIViewExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginViewModel.signInFaceBook():LoginViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AccessToken.current">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.collectionView(_:layout:sizeForItemAt:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.bounds.width">
+            </PersistentString>
+            <PersistentString
+               value = "2 * ( item + itemPadding)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsViewController.configureView():ItemParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.type">
+            </PersistentString>
+            <PersistentString
+               value = " &quot;Add Item&quot;.localize()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventCreateViewModel.saveCalendarEvent():CalendarEventCreateViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendarEventModel">
+            </PersistentString>
+            <PersistentString
+               value = "setModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.calendar(_:didScrollToDateSegmentWith:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "formatter.string(from: date)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginViewModel.signIn(_:_:):LoginViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "strongSelf.userGoals">
+            </PersistentString>
+            <PersistentString
+               value = "strongSelf.userStyles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized closure #1 in SetItemTableViewCell.panGestureHandler(_:):SetItemTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.itemViewTrailingConstraint.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AccountEditViewModel.saveGoalAndStyle():AccountEditViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "group">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicItemViewController.collectionView(_:numberOfItemsInSection:):BasicItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClothesViewController.viewDidLoad():ClothesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.loadNibNamed(&quot;PlusView&quot;, owner: nil, options: nil)">
+            </PersistentString>
+            <PersistentString
+               value = "view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DraggableContainerView.viewWasDragged(sender:):DraggableContainerView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "minimumY">
+            </PersistentString>
+            <PersistentString
+               value = "maximumY">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in searchedAttibutedString(text:deletedStrings:):Helper.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "range.lowerBound.utf16Offset(in: string)">
+            </PersistentString>
+            <PersistentString
+               value = "            range.lowerBound.utf16Offset(in: string)&#10;">
+            </PersistentString>
+            <PersistentString
+               value = "string.count">
+            </PersistentString>
+            <PersistentString
+               value = "deletedStrings">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarController.handleConnection(_:):TabBarController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "notification.object">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.selectedPatamerts(_:):ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "saveItemModel.colorList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventViewModel.configureModels():CalendarEventViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "events">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.selectEventWithNotification(model:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabBarItem.changeLeading():CustomTabBarItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "index">
+            </PersistentString>
+            <PersistentString
+               value = "frame.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClothesTableViewCell.collectionView(_:layout:sizeForItemAt:):ClothesTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarLookCollectionViewCell.selectedIndex():CalendarLookCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath!.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemViewController.setUpUI():ItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "createLookButton.frame.maxY">
+            </PersistentString>
+            <PersistentString
+               value = "view.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "topView.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "margin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateLookViewController.collectionView(_:numberOfItemsInSection:):CreateLookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.loadMore ? viewModel.lookModels.count + 1 : viewModel.lookModels.countviewModel.loadMore ? viewModel.lookModels.count + 1 : viewModel.lookModels.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WelcomeLoginViewController.selectedIndex():WelcomeLoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath!.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.configureSaveModel(_:):ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model?.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WhatToWearViewController.updateCollection():WhatToWearViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.emptyLooks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PendingSendSyncManager.sendPendingEvents():PendingSendSyncManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.setTitle(_:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "formatter.string(from: date).capitalized">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationTableViewCell.configure(model:):NotificationTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.calendarEventModelModel">
+            </PersistentString>
+            <PersistentString
+               value = "model.calendarEventModelModel?.setModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabViewA.calculateItemSize():CustomTabViewA.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "homeItem.frame.minX + 20">
+            </PersistentString>
+            <PersistentString
+               value = "homeItem.frame.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static UIApplication.setTabBarRoot(rootViewCotroller:):UIApplicationExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.tabBarController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarTabBar.calendar(_:willScrollToDateSegmentWith:):CalendarTabBar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visibleDates.monthDates.first">
+            </PersistentString>
+            <PersistentString
+               value = "deselectedIndexPath">
+            </PersistentString>
+            <PersistentString
+               value = "visibleDates.monthDates.first?.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewModel.getBasicItems():BasicViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.calendar(_:didSelectDate:cell:cellState:indexPath:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateLookViewModel.selectItem(sectionIndex:itemIndex:):CreateLookViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsViewController.viewDidLoad():ItemParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParameterViewModel.saveItem():ItemParameterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "saveItemModel.imageUpdated">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewModel.searchWithParameters(text:offset:limit:):SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItemParameterModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateLookViewModel.getItemsSelectedTypes(type:):CreateLookViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sectionModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemParamsViewController.backAction(_:):ItemParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GalleryCropperViewController.confirmAction(_:):GalleryCropperViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollView.zoomScale">
+            </PersistentString>
+            <PersistentString
+               value = "image.cgImage">
+            </PersistentString>
+            <PersistentString
+               value = "image.scale">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.viewDidLoad():SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchBar.searchTextField.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumItemViewController.collectionView(_:numberOfItemsInSection:):AlbumItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " albumModel.setModels.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PannableViewController.onPan(_:):PannableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "panGesture.state">
+            </PersistentString>
+            <PersistentString
+               value = "getCollectionViewOffset()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemModel.getItemTypeName():ItemModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventCreateViewModel.setSetModel(_:):CalendarEventCreateViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "setModel.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewModel.selectParameter(_:_:):SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItemViewParameterModels[itemParameterModel.type]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileModel.getAvatar():ProfileModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "haveConnection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationModel.calendarEventModelModel.getter:NotificationModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "eventId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendaryDayCell.select():CalendaryDayCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedView.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "selectedView.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventLookTableViewCell.configure(_:):EventLookTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "setModel.multipleHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.collectionView(_:numberOfItemsInSection:):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.lookModels.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JTACMonthView.collectionView(_:willDisplay:forItemAt:):JTACCollectionMonthViewDelegates.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendarDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewController.handleUpdateBasics(success:):BasicViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "type.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClothItemViewController.collectionView(_:cellForItemAt:):ClothItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.bounds.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventModel.correctDate.getter:CalendarEvent.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "date">
+            </PersistentString>
+            <PersistentString
+               value = "Date(timeIntervalSinceReferenceDate: date)">
+            </PersistentString>
+            <PersistentString
+               value = "_date?.timeIntervalSinceReferenceDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookSelectView.tableView(_:numberOfRowsInSection:):LookSelectView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.clothingTypes.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TakePhotoViewController.takePhotoAction(_:):TakePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "image.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlusView.delegate.getter:PlusView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseAlertViewController.keyboardWillShow(notification:):BaseAlertViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "v">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds.height - keyboardHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.viewDidLoad():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainView">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "mainView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ClothItemViewController.collectionView(_:layout:sizeForItemAt:):ClothItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileTextFieldTableViewCell.textFieldDidChange(_:):ProfileTextFieldTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewModel.authorizationController(controller:didCompleteWithAuthorization:):LoginViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fullName?.familyName">
+            </PersistentString>
+            <PersistentString
+               value = "appleIDCredential.fullName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarController.viewDidLoad():TabBarController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBar.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetViewController.backAction(_:):SetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GoalViewModel.saveGoals():GoalViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tempSaveModelIds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginOnboardinViewController.selectedIndex():LoginOnboardinViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.visibleCells">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemViewController.prepare(for:sender:):ItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TakePhotoViewController.photoOutput(_:didFinishProcessingPhoto:error:):TakePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data!.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileWebService.updateProfile(profile:completion:):ProfileWebService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "profile.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BaseNetworkManager.uploadImage(path:imageData:parameters:):BaseNetworkManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseNavigationViewController.navigationTitle.didset:BaseNavigationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in SearchViewModel.deleteRecentSearchTexts():SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response as? [Int]">
+            </PersistentString>
+            <PersistentString
+               value = "strongSelf.recentSearchs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.createAttributedWithWeather(_:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "weatherModel.icon">
+            </PersistentString>
+            <PersistentString
+               value = "UIImage(named: weatherModel.icon)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewModel.searchWithParameters():SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItemParameterModels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewController.scrollViewDidScroll(_:):BasicViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollView.contentOffset.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SetViewController.configureUI():SetViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewController.tableView(_:numberOfRowsInSection:):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.itemParameterModels.count">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarTabBar.calendar(_:didDeselectDate:cell:cellState:indexPath:):CalendarTabBar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "weakCollectionView.cellForItem(at: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in SynchronizationManager.startSync():SynchronizationManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "strongSelf.syncDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SuggestionWebService.getSuggestion(lookModelType:offset:limit:_:):SuggestionWebService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "limit">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarEventViewModel.configureModelsWithDict(_:):CalendarEventViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "events">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CalendarEventViewModel.configureModels(_:):CalendarEventViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateGroupEvents">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TakePhotoViewController.fleshChange(_:):TakePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentCamera!.isTorchActive">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BaseNetworkManager.sendRequest(type:path:parameters:headers:encoding:timeOut:isDataType:comletion:):BaseNetworkManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumsViewController.selectCell(_:):AlbumsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AlbumSetCollectionViewCell.configureUI():AlbumSetCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds.width">
+            </PersistentString>
+            <PersistentString
+               value = "itemHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookViewModel.handleResponse(_:):LookViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "completion">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseNavigationViewController.navigationHeight.getter:BaseNavigationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookItemTableViewCell.collectionView(_:cellForItemAt:):LookItemTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItems">
+            </PersistentString>
+            <PersistentString
+               value = "cell.isSelected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchViewModel.searchWithParameters(offset:limit:):SearchViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "params">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemModel.init(_:):ItemModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dict[&quot;imageUpdated&quot;] as? Bool">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.collectionView(_:cellForItemAt:):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.bounds.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OpenLookCollectionViewCell.configureCell(lookModel:):OpenLookCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lookModel.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookCollectionView.collectionViewLayout.getter:LookCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "looks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BasicViewModel.getItems(with:):BasicViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "basicItems">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.openProfile():LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CoreDataManager.shared.getProfile()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemModel.image.getter:ItemModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "id">
+            </PersistentString>
+            <PersistentString
+               value = "UIImage(data: _imageData ?? Data())">
+            </PersistentString>
+            <PersistentString
+               value = "downloadState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PendingSendSyncManager.sendRequests():PendingSendSyncManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIApplication.shared.applicationState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LookCollectionView.looks.didset:LookCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "looks.map { $0.multipleHeight }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabView.changeLeading():CustomTabView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.frame.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SignInWebService.ssoSignIn(name:lastName:_:_:completion:):SignInWebService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CustomTabBarItem.setModel(itemModel:):CustomTabBarItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageView.frame.width">
+            </PersistentString>
+            <PersistentString
+               value = "titleLabel.frame.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SignInWebService.signIn(_:completion:):SignInWebService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SCTabBar.commonInit():SCTabBar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItem.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

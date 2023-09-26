@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="281" id="KGk-i7-Jjw" customClass="EventLookTableViewCell" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="587" height="281"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="587" height="281"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YMX-N6-7gS">
+                        <rect key="frame" x="16" y="20" width="148" height="223"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="148" id="Sgw-Rl-Glr"/>
+                            <constraint firstAttribute="height" constant="223" id="cbC-RZ-SOE"/>
+                        </constraints>
+                    </imageView>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="KJE-ic-Fek">
+                        <rect key="frame" x="188" y="48.5" width="166" height="166"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="166" id="BbB-Nq-zyp"/>
+                            <constraint firstAttribute="width" secondItem="KJE-ic-Fek" secondAttribute="height" multiplier="1:1" id="XQo-2z-BS9"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HnP-PP-D8a">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="NKn-AD-nyR"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="tlV-Yb-k2x"/>
+                        </connections>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUz-py-XCh">
+                        <rect key="frame" x="68.5" y="253" width="43" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="AoA-M7-uQs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" name="Secondary"/>
+                        </state>
+                        <connections>
+                            <action selector="changeAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Y7l-BK-gwM"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KJE-ic-Fek" firstAttribute="centerY" secondItem="YMX-N6-7gS" secondAttribute="centerY" id="3Ss-iy-6nH"/>
+                    <constraint firstItem="YMX-N6-7gS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="4nu-5C-3Jt"/>
+                    <constraint firstItem="KJE-ic-Fek" firstAttribute="leading" secondItem="YMX-N6-7gS" secondAttribute="trailing" constant="24" id="DW3-eZ-vfo"/>
+                    <constraint firstAttribute="bottom" secondItem="YMX-N6-7gS" secondAttribute="bottom" constant="25" id="JTC-km-Y1o"/>
+                    <constraint firstItem="bUz-py-XCh" firstAttribute="centerX" secondItem="YMX-N6-7gS" secondAttribute="centerX" id="deT-bq-Ze0"/>
+                    <constraint firstItem="bUz-py-XCh" firstAttribute="top" secondItem="YMX-N6-7gS" secondAttribute="bottom" constant="10" id="s2q-pf-Odf"/>
+                    <constraint firstItem="YMX-N6-7gS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="xt9-xb-pn5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="changeButton" destination="bUz-py-XCh" id="U2V-w0-dQu"/>
+                <outlet property="collectionView" destination="KJE-ic-Fek" id="noQ-FU-Ejd"/>
+                <outlet property="collectionWidth" destination="BbB-Nq-zyp" id="x9W-31-rp7"/>
+                <outlet property="imageHeightConstraint" destination="cbC-RZ-SOE" id="1in-es-Sfi"/>
+                <outlet property="imageWidthConstraint" destination="Sgw-Rl-Glr" id="QLr-KN-oi7"/>
+                <outlet property="lookImageView" destination="YMX-N6-7gS" id="rZX-kO-8fv"/>
+            </connections>
+            <point key="canvasLocation" x="103.62318840579711" y="221.31696428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Secondary">
+            <color red="0.074509803921568626" green="0.22745098039215686" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

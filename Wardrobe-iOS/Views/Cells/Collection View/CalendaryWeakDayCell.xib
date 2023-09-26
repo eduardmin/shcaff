@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CalendaryWeakDayCell" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="194" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="194" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E9H-va-y7t">
+                        <rect key="frame" x="0.0" y="0.0" width="194" height="246"/>
+                        <color key="backgroundColor" name="Main"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTM-OH-KV5">
+                        <rect key="frame" x="0.0" y="205" width="194" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="Title"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nth-2k-ky8">
+                        <rect key="frame" x="0.0" y="7" width="194" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="mTM-OH-KV5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0eW-Ip-yCI"/>
+                <constraint firstAttribute="trailing" secondItem="Nth-2k-ky8" secondAttribute="trailing" id="EJh-29-8T3"/>
+                <constraint firstAttribute="trailing" secondItem="E9H-va-y7t" secondAttribute="trailing" id="M4S-88-i4d"/>
+                <constraint firstAttribute="trailing" secondItem="mTM-OH-KV5" secondAttribute="trailing" id="PRR-iU-RhI"/>
+                <constraint firstAttribute="bottom" secondItem="E9H-va-y7t" secondAttribute="bottom" id="ZDj-6A-XC4"/>
+                <constraint firstItem="Nth-2k-ky8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gMi-XF-rsx"/>
+                <constraint firstItem="Nth-2k-ky8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="gdn-Va-X2G"/>
+                <constraint firstItem="E9H-va-y7t" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hyI-Ua-aiS"/>
+                <constraint firstItem="E9H-va-y7t" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oMG-fg-dPV"/>
+                <constraint firstAttribute="bottom" secondItem="mTM-OH-KV5" secondAttribute="bottom" constant="20" id="v4B-mY-4hF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="194" height="246"/>
+            <connections>
+                <outlet property="dayTitleLabel" destination="mTM-OH-KV5" id="sfp-N1-DTx"/>
+                <outlet property="selectedView" destination="E9H-va-y7t" id="F5M-Wm-mpL"/>
+                <outlet property="weakTitleLabel" destination="Nth-2k-ky8" id="Bva-Ra-73N"/>
+            </connections>
+            <point key="canvasLocation" x="136.23188405797103" y="84.375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Main">
+            <color red="0.0" green="0.59215686274509804" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Title">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

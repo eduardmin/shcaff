@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sTe-XC-rUE" customClass="DatePickerView" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="maf-6Q-0lI">
+                    <rect key="frame" x="0.0" y="408" width="375" height="44"/>
+                    <color key="backgroundColor" name="cl_background_#F4F4F4"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEc-io-CFn" userLabel="Title View">
+                    <rect key="frame" x="0.0" y="408" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uer-PY-hkO">
+                            <rect key="frame" x="329" y="7" width="38" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Done">
+                                <color key="titleColor" name="Main"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="doneClick:" destination="sTe-XC-rUE" eventType="touchUpInside" id="k5c-vF-BF0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ibe-x8-u0i">
+                            <rect key="frame" x="16" y="7" width="48" height="30"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" name="Title"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelClick:" destination="sTe-XC-rUE" eventType="touchUpInside" id="Tcc-HB-oZK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="cl_background_#F4F4F4"/>
+                    <constraints>
+                        <constraint firstItem="Ibe-x8-u0i" firstAttribute="centerY" secondItem="bEc-io-CFn" secondAttribute="centerY" id="5yo-yb-MXP"/>
+                        <constraint firstItem="Ibe-x8-u0i" firstAttribute="leading" secondItem="bEc-io-CFn" secondAttribute="leading" constant="16" id="EmS-BB-Qbb"/>
+                        <constraint firstAttribute="height" constant="44" id="Unz-sX-Tcp"/>
+                        <constraint firstAttribute="centerY" secondItem="uer-PY-hkO" secondAttribute="centerY" id="bnE-pz-8DK"/>
+                        <constraint firstAttribute="trailing" secondItem="uer-PY-hkO" secondAttribute="trailing" constant="8" id="hiM-3T-5qD"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWU-GR-ZVu">
+                    <rect key="frame" x="0.0" y="452" width="375" height="215"/>
+                    <color key="backgroundColor" name="cl_background_#F4F4F4"/>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="QPV-Sh-0Wf">
+                    <rect key="frame" x="0.0" y="452" width="375" height="215"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="215" id="SsJ-4K-Trx"/>
+                    </constraints>
+                    <locale key="locale" localeIdentifier="en_AL"/>
+                </datePicker>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="0Kv-aq-Owh"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bEc-io-CFn" firstAttribute="leading" secondItem="0Kv-aq-Owh" secondAttribute="leading" id="1G7-0h-yUe"/>
+                <constraint firstAttribute="trailing" secondItem="QPV-Sh-0Wf" secondAttribute="trailing" id="5tB-vz-qOU"/>
+                <constraint firstItem="YWU-GR-ZVu" firstAttribute="trailing" secondItem="QPV-Sh-0Wf" secondAttribute="trailing" id="ANV-2B-dBa"/>
+                <constraint firstAttribute="trailing" secondItem="maf-6Q-0lI" secondAttribute="trailing" id="E4b-H4-yJs"/>
+                <constraint firstItem="QPV-Sh-0Wf" firstAttribute="leading" secondItem="sTe-XC-rUE" secondAttribute="leading" id="GI3-KW-lSn"/>
+                <constraint firstItem="maf-6Q-0lI" firstAttribute="top" secondItem="bEc-io-CFn" secondAttribute="top" id="GfR-rE-FyY"/>
+                <constraint firstItem="QPV-Sh-0Wf" firstAttribute="top" secondItem="bEc-io-CFn" secondAttribute="bottom" id="Rzg-e0-Xhq"/>
+                <constraint firstAttribute="bottom" secondItem="QPV-Sh-0Wf" secondAttribute="bottom" id="bc0-Ah-ygT"/>
+                <constraint firstItem="YWU-GR-ZVu" firstAttribute="bottom" secondItem="QPV-Sh-0Wf" secondAttribute="bottom" id="e6h-Xy-2BX"/>
+                <constraint firstItem="maf-6Q-0lI" firstAttribute="height" secondItem="bEc-io-CFn" secondAttribute="height" id="pk9-2U-tm7"/>
+                <constraint firstItem="YWU-GR-ZVu" firstAttribute="leading" secondItem="QPV-Sh-0Wf" secondAttribute="leading" id="qzJ-4Y-Zta"/>
+                <constraint firstItem="YWU-GR-ZVu" firstAttribute="top" secondItem="QPV-Sh-0Wf" secondAttribute="top" id="smq-oW-4eQ"/>
+                <constraint firstItem="maf-6Q-0lI" firstAttribute="leading" secondItem="sTe-XC-rUE" secondAttribute="leading" id="ysE-Zv-Kbq"/>
+                <constraint firstItem="bEc-io-CFn" firstAttribute="trailing" secondItem="0Kv-aq-Owh" secondAttribute="trailing" id="zKp-J7-fGJ"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomConstraint" destination="bc0-Ah-ygT" id="QaM-oP-tNC"/>
+                <outlet property="cancelButton" destination="Ibe-x8-u0i" id="BU9-25-5fD"/>
+                <outlet property="datePickerView" destination="QPV-Sh-0Wf" id="kVW-v2-WR9"/>
+                <outlet property="doneButton" destination="uer-PY-hkO" id="9vA-ZD-2hx"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Main">
+            <color red="0.18823529411764706" green="0.73725490196078436" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Title">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="cl_background_#F4F4F4">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6DM-es-edG" customClass="AlbumEditSelectView" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="249" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGF-Lc-4Ee">
+                    <rect key="frame" x="0.0" y="0.0" width="249" height="195"/>
+                    <color key="backgroundColor" name="Title"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sz9-pB-iMi">
+                    <rect key="frame" x="16" y="16" width="104" height="94"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-Ar-6ds">
+                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                            <color key="backgroundColor" name="White"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="34B-hf-hQW"/>
+                                <constraint firstAttribute="width" constant="44" id="VkX-LC-A97"/>
+                            </constraints>
+                            <state key="normal" image="trash"/>
+                            <connections>
+                                <action selector="deleteAction:" destination="6DM-es-edG" eventType="touchUpInside" id="CwC-Zd-Ioq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4T-Gg-4LX">
+                            <rect key="frame" x="60" y="50" width="44" height="44"/>
+                            <color key="backgroundColor" name="White"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="0I3-yG-QcI"/>
+                                <constraint firstAttribute="height" constant="44" id="4yk-v1-SAj"/>
+                            </constraints>
+                            <state key="normal" image="pencil"/>
+                            <connections>
+                                <action selector="editAction:" destination="6DM-es-edG" eventType="touchUpInside" id="lID-3N-ATX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="sbI-Ar-6ds" firstAttribute="top" secondItem="sz9-pB-iMi" secondAttribute="top" id="0qg-8d-QeL"/>
+                        <constraint firstItem="sbI-Ar-6ds" firstAttribute="leading" secondItem="sz9-pB-iMi" secondAttribute="leading" id="ZwL-Vh-pCg"/>
+                        <constraint firstAttribute="width" constant="104" id="cx4-4s-h7Y"/>
+                        <constraint firstAttribute="height" constant="94" id="g7g-RU-Z8d"/>
+                        <constraint firstAttribute="trailing" secondItem="G4T-Gg-4LX" secondAttribute="trailing" id="gHZ-lu-NyU"/>
+                        <constraint firstAttribute="bottom" secondItem="G4T-Gg-4LX" secondAttribute="bottom" id="l6V-BR-W4n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="NP2-UL-nY7"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sz9-pB-iMi" firstAttribute="top" secondItem="6DM-es-edG" secondAttribute="top" constant="16" id="bZi-lM-rH0"/>
+                <constraint firstItem="sz9-pB-iMi" firstAttribute="leading" secondItem="NP2-UL-nY7" secondAttribute="leading" constant="16" id="iFv-Uh-P4E"/>
+                <constraint firstItem="NP2-UL-nY7" firstAttribute="trailing" secondItem="gGF-Lc-4Ee" secondAttribute="trailing" id="jtq-Iu-UVo"/>
+                <constraint firstItem="gGF-Lc-4Ee" firstAttribute="leading" secondItem="NP2-UL-nY7" secondAttribute="leading" id="m4I-D4-FCx"/>
+                <constraint firstItem="gGF-Lc-4Ee" firstAttribute="top" secondItem="6DM-es-edG" secondAttribute="top" id="o7q-YN-rTp"/>
+                <constraint firstItem="NP2-UL-nY7" firstAttribute="bottom" secondItem="gGF-Lc-4Ee" secondAttribute="bottom" id="wHL-dx-JtB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="gGF-Lc-4Ee" id="4aM-Vy-qPa"/>
+                <outlet property="contentView" destination="sz9-pB-iMi" id="9gd-DD-mbd"/>
+                <outlet property="deleteButton" destination="sbI-Ar-6ds" id="JTb-db-kP4"/>
+                <outlet property="editButton" destination="G4T-Gg-4LX" id="ThW-jH-eEY"/>
+                <outlet property="leadingConstraint" destination="iFv-Uh-P4E" id="t22-SL-rJx"/>
+                <outlet property="topConstraint" destination="bZi-lM-rH0" id="gok-Og-ajX"/>
+            </connections>
+            <point key="canvasLocation" x="-846" y="-912"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pencil" width="21" height="20"/>
+        <image name="trash" width="17" height="20"/>
+        <namedColor name="Title">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

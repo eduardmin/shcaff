@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ColorStatisticCollectionViewCell" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="69" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="69" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qNf-zB-JbL">
+                        <rect key="frame" x="0.0" y="158" width="69" height="1"/>
+                        <color key="backgroundColor" name="Separator"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="FfT-og-ovy"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNx-jK-slF">
+                        <rect key="frame" x="25.5" y="161" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="d1K-LI-cQr"/>
+                            <constraint firstAttribute="height" constant="18" id="wdQ-Yp-UF6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" name="Title"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HP8-Yt-Omq">
+                        <rect key="frame" x="29.5" y="8" width="10" height="150"/>
+                        <color key="backgroundColor" name="Title"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="FOM-LU-JUe"/>
+                            <constraint firstAttribute="height" constant="150" id="WqD-bU-q1b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="White"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eNx-jK-slF" secondAttribute="bottom" constant="2" id="0t7-De-ZxU"/>
+                <constraint firstItem="eNx-jK-slF" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="6d8-HZ-bWX"/>
+                <constraint firstItem="qNf-zB-JbL" firstAttribute="top" secondItem="HP8-Yt-Omq" secondAttribute="bottom" id="N71-Yu-hsJ"/>
+                <constraint firstItem="HP8-Yt-Omq" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="RcV-A3-720"/>
+                <constraint firstItem="qNf-zB-JbL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Xxa-qM-gS7"/>
+                <constraint firstItem="eNx-jK-slF" firstAttribute="top" secondItem="qNf-zB-JbL" secondAttribute="bottom" constant="2" id="gYB-HZ-qKc"/>
+                <constraint firstAttribute="trailing" secondItem="qNf-zB-JbL" secondAttribute="trailing" id="wK7-iD-27V"/>
+            </constraints>
+            <size key="customSize" width="69" height="181"/>
+            <connections>
+                <outlet property="colorStatisticHeight" destination="WqD-bU-q1b" id="290-JY-wVu"/>
+                <outlet property="colorStatisticView" destination="HP8-Yt-Omq" id="wNf-XG-WSB"/>
+                <outlet property="countLabel" destination="eNx-jK-slF" id="hLz-Og-UC8"/>
+            </connections>
+            <point key="canvasLocation" x="94.927536231884062" y="100.78125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Separator">
+            <color red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Title">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

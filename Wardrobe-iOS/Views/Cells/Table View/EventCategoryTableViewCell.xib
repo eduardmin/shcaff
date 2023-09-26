@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="208" id="KGk-i7-Jjw" customClass="EventCategoryTableViewCell" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="608" height="208"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="608" height="208"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmg-Go-6G9">
+                        <rect key="frame" x="26" y="20" width="88" height="47"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                        <color key="textColor" name="Title"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCx-Hp-NEw">
+                        <rect key="frame" x="20" y="77" width="274" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="x69-p5-4YJ"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npg-VE-fb9">
+                        <rect key="frame" x="314" y="77" width="274" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="xR7-b9-3qW"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cC7-Ws-vaj">
+                        <rect key="frame" x="314" y="147" width="274" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="QLx-CN-L7n"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOT-EW-n24">
+                        <rect key="frame" x="20" y="147" width="274" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="d1V-nI-Zhb"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="FOT-EW-n24" secondAttribute="bottom" id="24G-Wy-bxs"/>
+                    <constraint firstItem="dCx-Hp-NEw" firstAttribute="left" secondItem="H2p-sc-9uM" secondAttribute="left" constant="20" id="89c-ax-MgP"/>
+                    <constraint firstItem="npg-VE-fb9" firstAttribute="centerY" secondItem="dCx-Hp-NEw" secondAttribute="centerY" id="AOO-OM-K5e"/>
+                    <constraint firstAttribute="rightMargin" secondItem="npg-VE-fb9" secondAttribute="right" id="Fq4-Xx-ugb"/>
+                    <constraint firstItem="FOT-EW-n24" firstAttribute="left" secondItem="H2p-sc-9uM" secondAttribute="left" constant="20" id="JqE-UP-YpD"/>
+                    <constraint firstItem="npg-VE-fb9" firstAttribute="leading" secondItem="dCx-Hp-NEw" secondAttribute="trailing" constant="20" id="MKM-VC-chY"/>
+                    <constraint firstItem="FOT-EW-n24" firstAttribute="top" secondItem="dCx-Hp-NEw" secondAttribute="bottom" constant="20" id="PCq-kc-erO"/>
+                    <constraint firstItem="dCx-Hp-NEw" firstAttribute="top" secondItem="vmg-Go-6G9" secondAttribute="bottom" constant="10" id="QUy-8o-RzF"/>
+                    <constraint firstItem="cC7-Ws-vaj" firstAttribute="leading" secondItem="FOT-EW-n24" secondAttribute="trailing" constant="20" id="SQu-ly-0jO"/>
+                    <constraint firstItem="cC7-Ws-vaj" firstAttribute="centerY" secondItem="FOT-EW-n24" secondAttribute="centerY" id="URE-ug-UeI"/>
+                    <constraint firstItem="dCx-Hp-NEw" firstAttribute="width" secondItem="npg-VE-fb9" secondAttribute="width" id="V7I-TU-ngr"/>
+                    <constraint firstItem="vmg-Go-6G9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="heV-Gi-MiI"/>
+                    <constraint firstItem="vmg-Go-6G9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="mxa-Re-zMH"/>
+                    <constraint firstItem="FOT-EW-n24" firstAttribute="width" secondItem="cC7-Ws-vaj" secondAttribute="width" id="r2Y-93-aOq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cC7-Ws-vaj" secondAttribute="trailing" id="ziN-bP-Sey"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="eventCategoryLabel" destination="vmg-Go-6G9" id="DAH-m6-wXa"/>
+                <outlet property="otherButton" destination="cC7-Ws-vaj" id="SCp-xc-P6x"/>
+                <outlet property="partyButton" destination="FOT-EW-n24" id="Mfw-se-8kL"/>
+                <outlet property="universityButton" destination="dCx-Hp-NEw" id="SoO-GQ-IzD"/>
+                <outlet property="workButton" destination="npg-VE-fb9" id="HTQ-4Y-MqT"/>
+            </connections>
+            <point key="canvasLocation" x="-207.24637681159422" y="125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Title">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

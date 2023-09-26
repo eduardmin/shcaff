@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="106" id="KGk-i7-Jjw" customClass="ProfileGenderTableViewCell" customModule="Wardrobe_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="465" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="465" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zht-HC-2tB">
+                        <rect key="frame" x="26" y="0.0" width="55.5" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="PFO-XJ-e8K"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZb-G7-Rc0">
+                        <rect key="frame" x="16" y="46" width="433" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="vLy-SF-2nW"/>
+                        </constraints>
+                        <state key="normal" title="Female">
+                            <color key="titleColor" name="Title"/>
+                        </state>
+                        <connections>
+                            <action selector="genderAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="iKk-Uq-zNL"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PZb-G7-Rc0" secondAttribute="trailing" constant="16" id="7R9-FJ-7Uo"/>
+                    <constraint firstItem="PZb-G7-Rc0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Lwz-AL-Ljy"/>
+                    <constraint firstItem="Zht-HC-2tB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ur6-cz-SVW"/>
+                    <constraint firstItem="Zht-HC-2tB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="YcN-kR-LbI"/>
+                    <constraint firstAttribute="bottom" secondItem="PZb-G7-Rc0" secondAttribute="bottom" constant="10" id="nrF-dF-rIy"/>
+                    <constraint firstItem="PZb-G7-Rc0" firstAttribute="top" secondItem="Zht-HC-2tB" secondAttribute="bottom" constant="10" id="qrW-2w-5Wo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="genderButton" destination="PZb-G7-Rc0" id="twv-NL-H1B"/>
+                <outlet property="titleHeightConstraint" destination="PFO-XJ-e8K" id="tow-hD-mat"/>
+                <outlet property="titleLabel" destination="Zht-HC-2tB" id="nEi-ms-sUK"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="137.27678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Title">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
